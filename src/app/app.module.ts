@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CameraStreamComponent } from './camera-stream/camera-stream.component';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CameraStreamComponent } from './camera-stream/camera-stream.component';
     HeroDetailComponent,
     MessagesComponent,
     DashboardComponent,
-    CameraStreamComponent
+    CameraStreamComponent,
+    HeroSearchComponent
   ],
   imports: [
     BrowserModule,
